@@ -1,3 +1,17 @@
 .content{
     display:flex;
 }
+.songs{
+    display: flex;
+    justify-content: space-around;
+}
+.Artists{
+    display:flex;
+}
+img{
+    display:flex;
+}
+h1{
+    font-family:Quicksand;
+    text-align:center;
+}
