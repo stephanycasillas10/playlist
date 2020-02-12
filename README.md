@@ -19,7 +19,7 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 ### HTML/JavaScript
 - [x] Create a div to display your songs
 - [x] Create an array to store your song names
-- [ ] Create a loop to display your song names
+- [x] Create a loop to display your song names
 - [ ] Repeat these steps for song artist, song length, image, and link
 
 #### Wrap

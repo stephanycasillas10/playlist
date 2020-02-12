@@ -1,22 +1,21 @@
-// $('.songList').append("hello");
-// var songNames = ["Lo que ", "The Less I know the Better", "SUGAR"];
-// var songArtists = ["Cuco", "Tame Impala", "Brockhampton"];
-// var songLength = [];
-// var songImg = [];
-// var songLink = [];
+var songNames = ["Lo que siento", "The Less I know the Better", "SUGAR"];
+var songArtists = ["Cuco", "Tame Impala", "Brockhampton"];
+var songLength = [];
+var songImg = [];
+var songLink = [];
 
-// songNames.forEach(function(song){
-//     $('.songList').append("<li>" + song + "</li>");
-// });
+songNames.forEach(function(song){
+    $('.songList').append("<p>" + song + "</p>");
+});
 
-// songArtists.forEach(function(Artist){
-//     $('.songArtists').append("<li>" + Artist + "</li>");
-// });
+songArtists.forEach(function(Artist){
+    $('.artistList').append("<p>" + Artist + "</p>");
+});
 
-// songLength.forEach(function(Length){
-//     $('.songLength').append(Length);
-// });
+songLength.forEach(function(Length){
+    
+});
 
-// songImg.forEach(function(){
-//     $('.songImg').append();
-// });
+songImg.forEach(function(imgURL){
+    $('.songImg').append("<img>" +image + "</img>");
+});
