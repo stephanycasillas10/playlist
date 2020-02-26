@@ -1,6 +1,11 @@
-.content {
+.song {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.song span {
+    margin-right:10px;
 }
 /*
 .songs{

@@ -13,7 +13,7 @@ let songOne= {
 };
 
 let songTwo= {
-    name:"The less I know the Better",
+    name:"The Less I Know The Better",
     artist:"Tame Impala",
     runtime:"3:36",
     songImg:"https://c.saavncdn.com/807/Currents-English-2015-500x500.jpg",
@@ -28,7 +28,25 @@ let songThree={
     songLink:"https://www.youtube.com/watch?v=sZd-t5-I5uA",
 };
 
-$('.content').append("<div>" +"<div>" + songOne.name + "</div>" + "<div>" + songOne.artist + "</div>" +"</div>");
+let songs=[songOne, songTwo, songThree]
+
+songs.forEach(function(song) {
+    $('.content').append("<div class='song'>" + "<span>" + song.name + "</span>" + "<span>" + song.artist + "</span>" + "<span>" + song.runtime + "</span>"+ "<span>" + `<img src="${song.songImg}" height=100px width=100px />` + "</span>" + "<span>"+ `<a href="${song.songLink}"> Music Video </a>` + "</span>" + "</div>");
+});
+
+
+
+
+
+
+// $('.content').append("<span>" + songOne.name + "</span>" + "<span>" + songOne.artist + "</span>" + "<span>" + songOne.runtime + "</span>"+ "<span>" + `<img src="${songOne.songImg}" height=100px width=100px />` + "</span>" + "<span>"+ `<a href="${songOne.songLink}"> Music Video </a>` + "</span>");
+
+// $('.songTwo').append("<span>" + songTwo.name + "</span>" + "<span>" + songTwo.artist + "</span>" + "<span>" + songTwo.runtime + "</span>"+ "<span>" + `<img src="${songTwo.songImg}" height=100px width=100px />` + "</span>" + "<span>"+ `<a href="${songTwo.songLink}"> Music Video </a>` + "</span>");
+
+// $('.songThree').append("<span>" + songThree.name + "</span>" + "<span>" + songThree.artist + "</span>" + "<span>" + songThree.runtime + "</span>"+ "<span>" + `<img src="${songThree.songImg}" height=100px width=100px />` + "</span>" + "<span>"+ `<a href="${songThree.songLink}"> Music Video </a>` + "</span>");
+
+
+
 
 // songNames.forEach(function(song){
    
